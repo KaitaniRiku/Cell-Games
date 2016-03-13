@@ -11,7 +11,7 @@ http://vacherot.etudiant-eemi.com/perso/dossier/malcolm0810/private/s2705/js_gam
 Three degree of difficulty:
 
 - `Master Oroshi`: He's never serious, It would be easy to handle him insofar as his actions are ramndomly executed.
-- `Trunks`: He's kind, he will not try to win, just block your attacks,
+- `Trunks`: He's kind, he will not try to win, just block your attacks.
 - `Sangoku`: Unfortunately, he don't know how to hold back, be careful, he's the most serious opponent...
 
 
