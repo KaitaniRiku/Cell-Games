@@ -19,7 +19,7 @@ Three degree of difficulty:
 ### Localisation des fichiers de code
 
 ```
-pandaxou_story/
+cell_games/
   |
   |- views/
   |  |- pages/
