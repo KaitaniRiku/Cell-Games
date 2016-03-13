@@ -42,7 +42,7 @@ class Tic_tac_toeController extends \Core\System\ControllersProviderSystem
     {
         $this->setPageView('tic_tac_toe.twig');
         $this->setPageInfos(array(
-            'page_title' => 'DBZ - tic tac toe'
+            'page_title' => 'Cell Games'
         ));
     }
 

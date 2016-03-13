@@ -364,7 +364,7 @@ $(document).ready(function(){
 
     $personnage.transformation(img, function(){
       $endGameBubble.displayEndGameBubble('right', ['70%', 600], ['110px', 400], ['450px', 1000], function(){
-        $(this).displayBubbleMessages('special', ennemy_name, msg, "420px", 3000, function(){
+        $(this).displayBubbleMessages('special', ennemy_name, msg, "420px", 2000, function(){
 
         });
       });
