@@ -1,0 +1,22 @@
+##
+# Configuration des dépendances de fichier JS
+#
+# Ce fichier de configuration permet de savoir:
+# - Quels fichiers JS charger pour chaque page
+# - Et quels fichiers JS charger pour toutes les pages
+##
+
+use:
+    # On indique si on souhaite lier automatiquement les fichiers js au layout twig correspondant: true ou false
+    link_files: true
+
+# On indique pour chaque page, les fichiers JS que l'on souhaite utiliser à partir du dossier www/assets/js/
+files:
+    # On liste les fichiers js que l'on souhaite appliquer à toutes les pages
+    all:
+        - debug_modal.js
+
+    # On liste les fichiers js que l'on souhaite appliquer à une page spécifique
+    # Pour cela on écrit le nom de la page, puis on liste les fichiers js à charger
+    tic_tac_toe:
+        - tic_tac_toe.js

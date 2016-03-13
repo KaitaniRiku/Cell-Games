@@ -1,0 +1,269 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #000!important;
+}
+
+h1, h2{
+  font-family: 'Play';
+}
+
+.text-white{
+  color: #cecece;
+}
+
+.red{
+  color: #BB0B0B;
+}
+
+.btn-link:hover{
+  color: #DBA614!important;
+  text-decoration: none!important;
+}
+
+
+
+#all_container{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  width: 1200px;
+  height: 600px;
+  margin-left: -600px;
+  margin-top: -300px;
+  background-image: url('../pictures/starry-sky.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+
+  & #all_container_relative{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+    & #shenron{
+      position: absolute;
+      top: -300px;
+      left: 50%;
+      margin-left: -200px;
+      width: 400px;
+    }
+
+    & #shenron_bubble{
+      position: absolute;
+      top: 70px;
+      left: 50%;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-top: 5px #81c784 solid;
+      border-bottom: 5px #81c784 solid;
+      border-radius: 2px;
+      width: 450px;
+      height: 0px;
+      display: none;
+
+      & div{
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+        margin: 20px;
+        display: none;
+
+        & p{
+          font-size: 0.9em;
+          font-family: 'Open sans';
+
+          & .enemy_name{
+            color: #81c784;
+            font-weight: 600;
+          }
+
+          & .parag{
+            color: #ddd;
+          }
+        }
+      }
+    }
+
+    #bloc-choix-difficulte{
+      position: absolute;
+      width: 470px;
+      left: 50%;
+      top: 345px;
+      margin-left: -205px;
+
+
+      & h2{
+        margin: 0px 0px 30px 45px;
+        display: none;
+        color: #fff;
+      }
+
+      & .btn-container{
+        display: none;
+
+        & button{
+          width: 85%;
+          height: 40px;
+          margin-bottom: 10px;
+          color: #eee;
+          background-color: rgba(0, 0, 0, 0.5)!important;
+          border: 2px #81c784 solid; //F5B916
+          border-radius: 10px;
+
+          &:hover{
+            background-color: rgba(143, 107, 0, 0.2)!important;
+            -webkit-transition:all 0.4s;
+            -moz-transition:all 0.4s;
+            transition:all 0.4s;
+          }
+        }
+
+        & img{
+          width: 13px;
+          margin: -2px 0px 0px 6px;
+        }
+      }
+    }
+  }
+}
+
+#morpion{
+  display: none;
+
+  #personnage{
+    position: absolute;
+    top: 100%;
+    left: 100px;
+    width: 400px;
+
+    & .img-personnage{
+      width: 100%;
+    }
+  }
+
+
+  #game_and_select{
+    width: 350px;
+    top: 60px;
+    right: 110px;
+    position: absolute;
+
+    & .btn-who-begin{
+      width: 120px;
+    }
+
+    #game_wrapper{
+      display: none;
+      
+      & #indicator .notif{
+        color: #BB0B0B!important;
+        font-size: 14px!important;
+      }
+
+      & #grid-morpion{
+        background-color: #000;
+        width: 100%;
+        height: 360px;
+        margin-bottom: 20px;
+
+        & tr{
+          width: 100%;
+          height: 33.3%;
+          border: 1px #FFF solid;
+        }
+
+        & td{
+          width: 33.3%;
+          border: 1px #FFF solid;
+
+          & .btn-grid{
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+
+      & .btn-reset{
+        width: 350px;
+      }
+    }
+
+    & #game-over{
+
+      & h1{
+        font-size: 50px;
+        display: none;
+        color: #fff;
+      }
+
+      & .btn-rejouer{
+        margin-top: 250px;
+        width: 100%;
+        display: none;
+      }
+    }
+  }
+
+  & #end_game_bubble{
+    position: absolute;
+    top: 100%;
+    right: 20px;
+    background-color: rgba(165, 214, 167, 0.12);
+    border-left: 5px #90caf9 solid;
+    border-right: 5px #90caf9 solid;
+    border-radius: 2px;
+    width: 0%;
+    height: 60px;
+
+    & div{
+      position: relative;
+      overflow: hidden;
+      width: 420px;
+      height: 100%;
+      margin: auto;
+      padding: 20px 0px 0px 0px;
+
+      & p{
+        position: absolute;
+        top: 20px;
+        left: 0px;
+        width: 420px;
+        font-size: 1.1em;
+        font-family: 'Open sans';
+
+        & .enemy_name{
+          color: #90caf9;
+          font-weight: 600;
+        }
+
+        & .parag{
+          color: #ddd;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+           
+
+
+
+

@@ -1,0 +1,13 @@
+##
+# Configuration des templates twig
+#
+# Ce fichier de configuration de définir pour chaque template/layout, la liste des pages qui y sont associés
+##
+
+Game:
+    template: layout_game.twig
+    pages:
+        - tic_tac_toe
+
+Default:
+	template: layout.twig

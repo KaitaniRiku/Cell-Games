@@ -1,0 +1,91 @@
+<div id="all_container">
+  <div id="all_container_relative">
+    <div id="home">
+      <img id="shenron" src="www/assets/pictures/shenron.png" alt="shenron" />
+      <div id="bloc-choix-difficulte">
+        <h2>Who's your enemy ???</h2>
+        <div class="btn-container">
+          <button class="btn-tortue-genial">Tortue Genial</button>
+          <img src="www/assets/pictures/icon-dbz.png">
+        </div>
+        <div class="btn-container">
+          <button class="btn-trunks">Trunks</button>
+          <img src="www/assets/pictures/icon-dbz.png">
+          <img src="www/assets/pictures/icon-dbz.png">
+        </div>
+        <div class="btn-container">
+          <button class="btn-sangoku">Sangoku</button>
+          <img src="www/assets/pictures/icon-dbz.png">
+          <img src="www/assets/pictures/icon-dbz.png">
+          <img src="www/assets/pictures/icon-dbz.png">
+        </div>
+      </div>
+      <div id="shenron_bubble">
+        <div>
+          <p><span class="enemy_name">Chose your ennemy:</span></p>
+          <hr>
+          <p>
+            <span class="enemy_name">Master Oroshi:</span> 
+            <span class="parag">He's never serious, It would be easy to handle him</span>
+          </p>
+          <p><span class="enemy_name">Trunks:</span> <span class="parag">He's kind, he will just block your attacks</span></p>
+          <p><span class="enemy_name">Sangoku:</span> <span class="parag">He don't know how to hold back, be careful, he's serious...</span> </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="morpion">
+      <div id="personnage" class="">
+        <button class="btn-choose-other-ennemy btn-link">Choose another enemy</button>
+        <img class='img-personnage' src="www/assets/pictures/-oroshi.png" alt="muten" />
+      </div>
+
+      <div id="game_and_select">
+        <div id="who-go-first">
+          <h2 class="text-white">Who's first??</h2>
+            <button class="btn-me btn-who-begin btn btn-large btn-primary">Me</button>
+            <button class="btn-you btn-who-begin btn btn-large btn-warning">Ennemy</button>
+        </div>
+
+        <div id="game_wrapper">
+          <h2 id="celebrate"></h2>
+          <div id="indicator">
+            <h3 class="text-primary">Let's go!!!</h3>
+            <p class="notif"></p>
+          </div>
+
+          <table id="grid-morpion">
+            <tr>
+              <td index="0" class="line1 col1 diag1 cell c1"></td>
+              <td index="1" class="line1 col2 cell c2"></td>
+              <td index="2" class="line1 col3 diag2 cell c3"></td>
+            </tr>
+            <tr>
+              <td index="3" class="line2 col1 cell c4"></td>
+              <td index="4" class="line2 col2 diag1 diag2 cell c5"></td>
+              <td index="5" class="line2 col3 cell c6"></td>
+            </tr>
+            <tr>
+              <td index="6" class="line3 col1 diag2 cell c7"></td>
+              <td index="7" class="line3 col2 cell c8"></td>
+              <td index="8" class="line3 col3 diag1 cell c9"></td>
+            </tr>
+          </table>
+
+          <div id="game-bloc-text">
+            <button class="btn-reset btn btn-large btn-primary">Reset</button>
+          </div>
+        </div>
+
+        <div id="game-over">
+          <h1></h1>
+  	      <button class="btn-rejouer btn btn-large btn-primary">Rejouer</button>
+        </div>
+      </div>
+
+      <div id="end_game_bubble"><div><p><span class="enemy_name"></span><span class="parag"></span></p></div></div>
+    </div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
