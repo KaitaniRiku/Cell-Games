@@ -16,7 +16,7 @@ Three degree of difficulty:
 
 
 
-### Localisation des fichiers de code
+### Location of files
 
 ```
 cell_games/
